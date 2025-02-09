@@ -1,0 +1,68 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('our-cybersecurity-mission (1).jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #a8dadc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: #061023;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  color: #00bcd4;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #2196F3;
+  border-radius: 5px;
+  background-color: #0d1b2a;
+  color: #3cb8bd;
+  font-size: 14px;
+}
+
+button {
+  background-color: #00bcd4;
+  color: #1b263b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #008c9e;
+}
+

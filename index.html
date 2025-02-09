@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Login</title>
+  <link rel="stylesheet" href="styles/login.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="login-container">
+    <h1>TEAM LOGIN</h1>
+    <p>Please login with the default username and password.</p>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="team-name">TEAM NAME</label>
+        <input type="text" id="team-name" name="username" placeholder="Username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password" placeholder="Hint : 56<college:>1234" required>
+      </div>
+      <button type="submit">LOGIN</button>
+    </form>
+    <p id="error-message" style="color: red; display: none;">Invalid username or password!</p>
+  </div>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
+
