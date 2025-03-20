@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[CTF-Login Page](https://siddhubn.github.io/ctf-login/)** (Hosted on GitHub Pages)
+🔗 **[CTF-Login Page](https://siddhubn.github.io/CTF-Login/)** (Hosted on GitHub Pages)
 
 ## 📌 Overview
 
